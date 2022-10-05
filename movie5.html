@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jersey</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <script src="js/bootstrap.bundle.js"></script>
+    <style type="text/css">
+        #heading{
+            font-size: 50px;
+            color: white;
+            position: relative;
+            top: 70px;
+            right: 40px;
+        }
+        body{
+            background-color: black;
+            width: 100%;
+        }
+        #cast{
+            position: relative;
+            left: 700px;
+            bottom: 50px;
+        }
+        #reviews{
+            position: relative;
+            left: 850px;
+            bottom: 73px;
+        }
+        #trivia{
+            position: relative;
+            left: 1000px;
+            bottom: 97px;
+        }
+        #war{
+            height: 500px;
+            width: 350px;
+            padding: 8px;
+            position: relative;
+            bottom: 200px;
+        }
+        #trailer{
+            width: 720px;
+            height: 500px;
+            position: relative;
+            left: 50px;
+            top: 50px;
+        }
+        #text{
+            position: relative;
+            bottom: 100px;
+        }
+        #showtime{
+            width: 250px;
+            height: 50px;
+            color: black;
+            position: relative;
+            left: 900px;
+            bottom: 100px;
+            width: 250px;
+            border-radius: 10px;
+        }
+        #pay{
+            width: 250px;
+            height: 50px;
+            text-align: center;
+            color: black;
+            position: relative;
+            left: 500px;
+            bottom: 75px;
+            border-radius: 10px;
+        }
+        #rating{
+            position: relative;
+            left: 700px;
+            bottom: 75px;
+        }
+        #star{
+            width: 5%;
+            height: 40%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <p id="heading" class="col-md-10">Jersey</p>
+            <a href="https://www.imdb.com/title/tt5301942/fullcredits/?ref_=tt_ql_cl" id="cast" style="color: white;">cast and crew</a>
+            <a href="https://www.imdb.com/title/tt5301942/reviews/?ref_=tt_ql_urv" id="reviews" style="color: white;">user reviews</a>
+            <a href="https://www.imdb.com/title/tt5301942/trivia/?ref_=tt_ql_trv" id="trivia" style="color: white;">trivia</a>
+            <p style="color: white;" id="rating">Rating
+                7.3/10
+                <img src="star.png" id="star">
+            </p>
+        </div>
+        <img src="jersey.jpg" id="war">
+        <iframe width="560" height="315" id="trailer" src="https://www.youtube.com/embed/AjAe_Q1WZ_8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="row">
+            <p style="color: white;" id="text" class="col-md-10">A talented but failed cricketer decides to return to cricket in his late thirties driven by the desire to represent the Indian cricket team and fulfil his son's wish for a jersey as a gift.
+                Release date: 22 April 2022 (India)
+                Director: Gowtam Naidu Tinnanuri
+                Budget: 95 crores INR
+                Cinematography: Anil Mehta
+                Editor: Navin Nooli
+                Distributed by: Pen India Limited, Yash Raj Films, Balaji Motion Pictures</p>
+
+                <form action="https://www.hotstar.com/in">
+                    <input type="submit" value="Watch on hotstar" id="showtime" style="background-image: linear-gradient( 117deg,  rgba(123,216,96,1) 39.2%, rgba(255,255,255,1) 156.2% );">
+                </form>
+        </div>
+        <form action="payment.html">
+            <input type="submit" value="Proceed for payment" id="pay" style="background-image: linear-gradient( 117deg,  rgba(123,216,96,1) 39.2%, rgba(255,255,255,1) 156.2% );">
+        </form>
+    </div>  
+</body>
+</html>
