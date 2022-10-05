@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOVIES</title>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <script src="js/bootstrap.bundle.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style type="text/css">
+       #bkgnd{
+        width: 100%;
+        height: 650px;
+        padding: 5px;
+        border-radius: 20px;
+        background-attachment: scroll;
+       }
+       #war{
+        height: 350px;
+        width: 450px;
+        padding: 8px;
+        position: relative;
+        right: 10px;
+        
+       }
+       #jersey{
+        height: 350px;
+        width: 450px;
+        padding: 10px;
+        position: relative;
+        left: 250px;
+        display: flex;
+       }
+       body{
+        background-image: url("thor2.jpg");
+        background-size: 100% 100%;
+        background-attachment: fixed;
+        background-blend-mode: luminosity;
+        
+       }
+       #firsttrailer{
+        color: red;
+       }
+       #secondtrailer{
+        position: relative;
+        left: 450px;
+       }
+       #america{
+        position: relative;
+        left: 250px;
+        width: 450px;
+       }
+       #spiderman{
+        position: relative;
+        width: 450px;
+       }
+       #background{
+        background-attachment: fixed;
+        opacity: 0.8;
+       }
+       #heading{
+        text-align: center;
+        font-size: 100px;
+        font-weight: bold;
+        font-style: oblique;
+        font-family: 'Tahoma';
+       }
+       #book1{
+        width: 150px;
+        height: 50px;
+        border-radius: 10px;
+        position: relative;
+        top: 230px;
+        right: 900px;
+       }
+       
+       .book2{
+        width: 150px;
+        height: 50px;
+        border-radius: 10px;
+        position: relative;
+        left: 710px;
+        bottom: 115px;
+        background-image: linear-gradient( 117deg,  rgba(123,216,96,1) 39.2%, rgba(255,255,255,1) 156.2% );
+        transition: transform .2s;
+       }
+       .booksec{
+        width: 150px;
+        height: 50px;
+        border-radius: 10px;
+        position: relative;
+        bottom: 55px;
+        background-image: linear-gradient( 117deg,  rgba(123,216,96,1) 39.2%, rgba(255,255,255,1) 156.2% );
+       }
+       .footer{
+        position: scroll;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 200px;
+        background-color: rgb(18, 211, 195);
+        color: rgb(46, 91, 225);
+        text-align: center;
+        opacity: 0.5;
+       }
+       .fa {
+        padding: 20px;
+        font-size: 30px;
+        text-align: center;
+        text-decoration: none;
+        margin: 2px 2px;
+        border-radius: 50%;
+        }
+        .fa:hover {
+            opacity: 0.5;
+        }
+        .fa-instagram {
+            background: #125688;
+            color: white;
+            position: relative;
+            top: 50px;
+            right: 100px;
+        }
+        .fa-linkedin {
+            background: #007bb5;
+            color: white;
+            position: relative;
+            top: 50px;
+            left: 100px;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+    
+</head>
+<body> 
+    <div id="heading" style="color: rgba(49, 231, 186, 0.966);">Welcome to the Marvel Universe</div> 
+    <div class="container">
+        <div class="row">
+            <img src="infinitywar.jpg" id="war" class="col-md-10" >
+            <img src="jersey.jpg" id="jersey" class="col-md-10">
+        </div>
+        <div class="row">
+            <a href="https://youtu.be/6ZfuNTqbHE8" target="_blank" id="firsttrailer" class="col-sm-4">Click here to watch the trailer</a>
+            <a href="https://youtu.be/AjAe_Q1WZ_8" target="_blank" id="secondtrailer" class="col-sm-4">Click here to watch the trailer</a>
+        </div>
+        <div class="row">
+            <p  class="col-sm-4" id="war" style="color: rgba(49, 231, 185, 0.774);">The Avengers must stop Thanos, an intergalactic warlord, from getting his hands on all the infinity stones. However, Thanos is prepared to go to any lengths to carry out his insane plan.Release date: 27 April 2018 (India)
+                Directors: Anthony Russo, Joe Russo
+                Box office: 204.84 crores USD
+                Budget: 31.6 crores USD (2018)
+                Awards: People's Choice Award for Favorite Movie, MORE
+                Nominations: Academy Award for Best Visual Effects, MORE
+                Art directors: Beat Frutiger, Jann K. Engel, Mike Stallion, Jim Barr, MORE</p>
+            <p class="col-sm-4" id="jersey" style="color: rgba(49, 231, 185, 0.774);">A talented but failed cricketer decides to return to cricket in his late thirties driven by the desire to represent the Indian cricket team and fulfil his son's wish for a jersey as a gift.Release date: 22 April 2022 (India)
+                Director: Gowtam Naidu Tinnanuri
+                Budget: 95 crores INR
+                Cinematography: Anil Mehta
+                Editor: Navin Nooli
+                Distributed by: Pen India Limited, Yash Raj Films, Balaji Motion Pictures</p>
+                <form action="movie6.html">
+                    <input type="submit" value="Book tickets" class="booksec" style="background-image: linear-gradient( 117deg,  rgba(123,216,96,1) 39.2%, rgba(255,255,255,1) 156.2% );">
+                </form>
+                <form action="movie5.html">
+                    <input type="submit" value="Book tickets" class="book2">
+                </form>
+        </div>
+        <div class="row">
+            <img src="spiderman.jpg" id="war" class="col-md-10">
+            <img src="america.jpg" id="jersey" class="col-md-10">
+        </div>
+        <div class="row">
+            <a href="https://youtu.be/JfVOs4VSpmA" target="_blank" id="firsttrailer" class="col-sm-4">Click here to watch the trailer</a>
+            <a href="https://youtu.be/7SlILk2WMTI" target="_blank" id="secondtrailer" class="col-sm-4">Click here to watch the trailer</a>
+        </div>
+        <div class="row">
+            <p class="col-md-10" id="war" style="color: rgba(49, 231, 185, 0.774);">Spider-Man seeks the help of Doctor Strange to forget his exposed secret identity as Peter Parker. However, Strange's spell goes horribly wrong, leading to unwanted guests entering their universe.Release date: 17 December 2021 (USA)
+                Director: Jon Watts
+                Box office: 190.12 crores USD
+                Budget: 20 crores USD
+                Awards: Kids' Choice Award for Favorite Movie Actor, MORE
+                Nominations: MTV Movie & TV Award for Best Kiss, MORE</p>
+            <p class="col-md-10" id="jersey" style="color: rgba(49, 231, 185, 0.774);">As Steve Rogers adapts to the complexities of a contemporary world, he joins Natasha Romanoff and Sam Wilson in his mission to uncover the secret behind a deadly, mysterious assassin.Release date: 4 April 2014 (India)
+                Directors: Joe Russo, Anthony Russo
+                Box office: 71.44 crores USD
+                Budget: 17 crores USD
+                Nominations: MTV Movie & TV Award for Best Kiss, MORE
+                Art directors: Beat Frutiger, Kevin Ishioka, Gary Kosko</p>
+                <form action="movie4.html">
+                    <input type="submit" value="Book tickets" class="booksec">
+                </form>
+                <form action="movie3.html">
+                    <input type="submit" value="Book tickets" class="book2">
+                </form>
+        </div>
+        <div class="row">
+            <img src="strange.jpg" id="war" class="col-md-10">
+            <img src="lovethunder.jpg" id="jersey" class="col-md-10" class="ui-widget-content">
+        </div>
+        <div class="row">
+            <a href="https://youtu.be/aWzlQ2N6qqg" target="_blank" id="firsttrailer" class="col-sm-4">Click here to watch trailer</a>
+            <a href="https://youtu.be/Go8nTmfrQd8" target="_blank" id="secondtrailer" class="col-sm-4">Click here to watch trailer</a>
+        </div>
+        <div class="row">
+            <p class="col-md-10" id="war" style="color: rgba(49, 231, 185, 0.774);">Doctor Strange teams up with a mysterious teenage girl from his dreams who can travel across multiverses, to battle multiple threats, including other-universe versions of himself, which threaten to wipe out millions across the multiverse.
+                Release date: 6 May 2022 (USA)
+                Director: Sam Raimi
+                Box office: 95.48 crores USD
+                Budget: 20 crores USD
+                Casting director: Sarah Finn
+                Art directors: Julian Ashby, Mike Stallion, Patrick Harris, Thomas Brown, Mark Swain</p>
+                
+            <p class="col-md-10" id="jersey" style="color: rgba(49, 231, 185, 0.774);">Thor embarks on a journey unlike anything he's ever faced -- a quest for inner peace. However, his retirement gets interrupted by Gorr the God Butcher, a galactic killer who seeks the extinction of the gods. To combat the threat, Thor enlists the help of King Valkyrie, Korg and ex-girlfriend Jane Fo… MORE
+                Release date: 7 July 2022 (India) Trending
+                Director: Taika Waititi
+                Budget: 25 crores USD
+                Costume design: Mayes C. Rubeo
+                Distributed by: Walt Disney Studios Motion Pictures
+                Cinematography: Barry Baz Idoine, Todd Banhazl</p>
+                <form action="movie2.html">
+                    <input type="submit" value="Book tickets" class="booksec">
+                </form>
+                <form action="movie1.html">
+                    <input type="submit" value="Book tickets" class="book2">
+                </form>
+        </div>
+    </div>
+    <div class="footer">
+        <a href="https://www.instagram.com/harshilpathria/" class="fa fa-instagram"></a>
+        <a href="linkedin.com/in/harshil- pathria-0aaa23201" class="fa fa-linkedin"></a>
+    </div>
+</body>
+</html>
